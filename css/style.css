@@ -1,0 +1,97 @@
+@font-face {
+    font-family: SF Pro Display;
+    src: url(../fonts/SFPRODISPLAYREGULAR.OTF);
+} 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-family: 'Roboto', sans-serif;
+}
+.block {
+    display:flex ;
+    justify-content:space-between;
+    align-items:center;
+}
+.conteiner {
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 40px;
+}
+.header {
+    padding-top: 40px;
+}
+.adress-input {
+    max-width: 690px;
+    height: 40px;
+    width: 100%;
+    background: url("../img/home.svg") no-repeat 10px 11px;
+    border: 1px solid #D9D9D9;
+    border-radius: 2px;
+    padding-left: 32px;
+}
+.adress-input::placeholder {
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-heigt: 24px;
+    color :#BFBFBF;
+}
+.buttons {
+    display: flex;
+    flex-wrap: nowrap;
+}
+.batton {
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    border: none;
+    cursor: pointer;
+    font-family: SF Pro Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+}
+.button--primary {
+    background: #1890FF;
+    color: #FFFFFF;
+}
+.button--secondary {
+    background: transparent;
+    border: 1px solid #D9D9D9;
+    margin-left: 8px;
+}
+.promo-block {
+    background: #FFF188 url(../img/promo.png) no-repeat right;
+    border-radius:10px;
+    padding: 68px 71px;
+    filter: drop-shadow(0px 7px 12px rgba (158, 158,163, 0.10))
+}
+.text-block {
+    max-width: 598px;
+    width: 100%;
+}
+.promo-title {
+    max-width: 438px;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 39px;
+    font-weight: bold;
+    line-height:46px;
+    color:#302C34;
+    margin-bottom: 16px;
+}
+.promo-desk {
+    max-width: 520px;
+    font-family: Roboto;
+    font-style: normal;
+    font-size: 24px;
+    font-weight: normal;
+    line-height:28px;
+    color:#302C34;
+}
