@@ -17,6 +17,7 @@ body {
     display:flex ;
     justify-content:space-between;
     align-items:center;
+    flex-wrap: wrap;
 }
 .cards {
     flex-wrap: wrap;
@@ -74,6 +75,7 @@ body {
     border: 1px solid #D9D9D9;
     margin-left: 8px;
 }
+/*начало section-promo*/
 .section-promo {
     margin-bottom: 56px;
 }
@@ -106,6 +108,10 @@ body {
     line-height:28px;
     color:#302C34;
 }
+/*начало секции rest*/
+.section-rest {
+    padding-bottom: 91px;
+}
 .section_header {
     display: flex;
     justify-content: space-between;
@@ -129,7 +135,19 @@ body {
     border-radius: 2px;
     padding-left: 32px;  
 }
-.card {
+/*начало блока карточек*/
+.block-cards {
+    position: relative;
+    display:flex;
+    justify-content:space-between;
+    align-items:center; 
+}
+.block {
+    display:flex;
+    justify-content:space-between;
+    align-items:center; 
+}
+.cards {
     max-width: 384px;
     width: 100%;
     margin-bottom: 30px;
@@ -139,11 +157,14 @@ body {
 .card-main {
     padding: 24px 31px 25px;
     position: relative;
+    background: white;
+    margin-bottom:30px;
 }
 .card-main_header {
     display: flex;
     justify-content:space-between;
     align-items:center;
+    position: relative;
 }
 .card-title {
     font-family: Roboto;
@@ -212,6 +233,34 @@ body {
     left: -15px;
     margin-top: -3px;
 }
-display:flex;
-    justify-content:space-between;
-    align-items:center;
+/*footer!*/
+.footer {
+    background: #fff;
+    padding: 60px 0;
+}
+.footer-block {
+    max-width: 556px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation {
+    max-width: 420px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-link {
+    font-size: 18px;
+    line-height: 21px;
+    color:#595959;
+    text-decoration: none;
+}
+.social-block {
+    max-width: 127px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    float: right;  
+}
