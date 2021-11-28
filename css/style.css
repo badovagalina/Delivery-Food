@@ -54,7 +54,7 @@ body {
     display: flex;
     flex-wrap: nowrap;
 }
-.batton {
+.button {
     padding: 8px 16px;
     display: flex;
     align-items: center;
@@ -69,6 +69,7 @@ body {
 .button--primary {
     background: #1890FF;
     color: #FFFFFF;
+    
 }
 .button--secondary {
     background: transparent;
